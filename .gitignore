@@ -1,3 +1,6 @@
 node_modules
 .env
 serviceAccount.json
+Dockerfile
+docker-compose.yml
+
