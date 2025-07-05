@@ -1,0 +1,8 @@
+services:
+  server:
+    image: sagarchaurasia176/learninxr-backend:latest
+    container_name: LearnInXR
+    env_file:
+      - .env  
+    ports:
+      - "8000:8000"
